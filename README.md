@@ -1,6 +1,5 @@
 # Project Name
-
-Nodejs test - Sharing the Code
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Kanit&weight=500&size=30&pause=1000&color=94F7D8&width=435&lines=Node.js+Test+-+Sharing+the+Code)](https://git.io/typing-svg)
 
 ## Table of Contents
 
@@ -14,7 +13,10 @@ Nodejs test - Sharing the Code
 ## Initialisation
 
 > I have create a new repo named temp-node-tut in remote github in order to store it my local project of nodejs and upload it here.
-> Here, in this empty remote repo we upload our project created locally but before that  .gitignore file must have node_modules and other files (large usually)
+> Here, in this empty remote repo we upload our project created locally but before that  .gitignore file must have node_modules and other files (large usually):
+     ```
+     node_modules
+     ```
 > As no need to give node_modules along with the code as user can install it on his own dvice using package names in package.json automatically recognizing the required node_modules.
 > First , it is empty then in terminal of local run the commands:
 ```bash
@@ -38,7 +40,7 @@ git push -u origin main
 1. .gitignore file must have node_modules as told.
 2. Moreover as we shared everything elso so dependencies and packages need to install is already in package.json.
 3. Hence, node will recognize and install required packages using the following commands:
-4. > Insure that npm and node is installed in users system.
+4. Insure that npm and node is installed in users system.
    ```bash
    npm install
    ```
