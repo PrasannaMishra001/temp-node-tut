@@ -14,9 +14,10 @@
 
 > I have create a new repo named temp-node-tut in remote github in order to store it my local project of nodejs and upload it here.
 > Here, in this empty remote repo we upload our project created locally but before that  .gitignore file must have node_modules and other files (large usually):
-     ```
-     node_modules
-     ```
+-   ```
+    /node_modules
+    ```
+- Makes sense as in react etc we have very large seize modules and packages ,hence we never send as of bad practise.
 > As no need to give node_modules along with the code as user can install it on his own dvice using package names in package.json automatically recognizing the required node_modules.
 > First , it is empty then in terminal of local run the commands:
 ```bash
@@ -37,6 +38,10 @@ git push -u origin main
 
 ## Installation 
 ### How can a third-person install and use my project locally? 
+First, clone the github repo using :(first navigate where you want to store in your local system)
+```bash
+git clone https://github.com/PrasannaMishra001/temp-node-tut.git
+```
 1. .gitignore file must have node_modules as told.
 2. Moreover as we shared everything elso so dependencies and packages need to install is already in package.json.
 3. Hence, node will recognize and install required packages using the following commands:
