@@ -35,8 +35,8 @@ git push -u origin main
 ```
 > Now our project that we first created locally gets uploaded in github remotely.
 
-##Installation 
-###How can a third-person install and use my project locally? 
+## Installation 
+### How can a third-person install and use my project locally? 
 1. .gitignore file must have node_modules as told.
 2. Moreover as we shared everything elso so dependencies and packages need to install is already in package.json.
 3. Hence, node will recognize and install required packages using the following commands:
