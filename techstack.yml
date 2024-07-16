@@ -1,0 +1,85 @@
+repo_name: PrasannaMishra001/temp-node-tut
+report_id: 29416df5c31f88d968b82e89c58e53aa
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-16T06:31:18+00:00'
+requested_by: PrasannaMishra001
+provider: github
+branch: main
+detected_tools_count: 6
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/PrasannaMishra001/temp-node-tut
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/PrasannaMishra001/temp-node-tut/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Leonidas
+  last_updated_on: 2024-07-15 10:45:26.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/PrasannaMishra001/temp-node-tut
+  detection_source: Repo Metadata
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/PrasannaMishra001/temp-node-tut/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Leonidas
+  last_updated_on: 2024-07-15 10:45:26.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/PrasannaMishra001/temp-node-tut/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Leonidas
+  last_updated_on: 2024-07-15 10:45:26.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/PrasannaMishra001/temp-node-tut/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Leonidas
+  last_updated_on: 2024-07-15 10:45:26.000000000 Z
